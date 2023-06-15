@@ -5,7 +5,7 @@ body {
 .navbar {
     height: 72px;
     display: flex;
-    justify-content: spacearound;
+    justify-content: space-around;
     align-items: center;
     background-color: #8cc0ff;
     color: #323232
@@ -51,6 +51,12 @@ article::after {
 }
 
 .article-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+article > section {
     text-align: justify;
     padding: 0 20px;
     color: darkblue;
